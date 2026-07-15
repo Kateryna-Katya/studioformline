@@ -28,3 +28,9 @@ h3{
     color: #f1f1ff;
     margin-bottom: 32px;
 }
+@media only screen and (min-width: 1440px) {
+  h3{
+font-size: 56px;
+line-height: 1.14286;
+  }
+}
