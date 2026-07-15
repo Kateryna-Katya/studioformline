@@ -248,5 +248,78 @@ box-shadow: 0 20px 40px  rgba(0, 229, 255, 0.1);
 .available-swiper .ss3 {
 box-shadow: 0 20px 40px  rgba(191, 0, 255, 0.1);
 }
-
+}
+/* How It Works */
+.how-section .title-container{
+    justify-content: center;
+}
+.how-section h3{
+    text-align: center;
+    padding-bottom: 32px;
+    border-bottom: 4px solid #0d6170;
+}
+.how-img{
+    display: none;
+}
+.how-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.how-item{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.how-item-number{
+border: 1px solid #10b981;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+box-shadow: 0 0 20px  rgba(16, 185, 129, 0.2);
+    background: #0f0f0f;
+font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.1875;
+    color: #f1f1ff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.how-item-title{
+font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #f1f1ff;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+.how-item-text{
+text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.how-section .title-container{
+    justify-content: center;
+}
+.how-section h3{
+padding-bottom: 0;
+border-bottom: none;
+}
+.how-img{
+    display: block;
+}
+.how-list{
+    margin-top: 80px;
+flex-direction: row;
+justify-content: center;
+    gap: 0;
+} 
+.how-item{
+height: 234px;
+}
 }
