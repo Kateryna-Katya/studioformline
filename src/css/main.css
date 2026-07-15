@@ -102,3 +102,151 @@ width: 560px;
     height: 640px;
 }
 }
+/* Available Rooms */
+.available-swiper .swiper-slide{
+    background-image: url("/img/available/one.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 8px;
+        width: 343px;
+        height: 724px;
+        padding: 350px 16px 16px;
+}
+.swiper-slide-title{
+font-family: "Geist", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.33333;
+    text-transform: uppercase;
+    color: #ffb000;
+}
+.swiper-slide-subtitle{
+    margin-top: 8px;
+    margin-bottom: 8px;
+font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.1875;
+    color: #f1f1ff;
+}
+.swiper-slide-list{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #1f1f1f;
+}
+.swiper-slide-item{
+display: flex;
+flex-direction: column;
+gap: 4px;
+}
+.swiper-slide-item-text{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.33333;
+    text-transform: uppercase;
+    color: #454545;
+}
+.swiper-slide-item-text-two{
+    font-size: 14px;
+    line-height: 1.14286;
+    color: #f1f1ff;
+}
+.swiper-slide-rules{
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.33333;
+    text-transform: uppercase;
+    color: #454545;
+}
+.rules-list{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.riles-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.23077;
+}
+.available-swiper .ss2{
+background-image: url("/img/available/two.png");    
+}
+.available-swiper .ss2 .swiper-slide-title{
+color: #00d9ff;
+}
+.available-swiper .ss3 {
+    background-image: url("/img/available/three.png");
+}
+
+.available-swiper .ss3 .swiper-slide-title {
+color: #bf00ff;
+}
+.available-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.available-pagination .swiper-pagination-bullet {
+    margin: 0 !important;
+
+    background: #00d9ff;
+    border-radius: 8px;
+
+    opacity: 1;
+
+    width: 4px;
+    height: 4px;
+
+    transition: all .3s ease;
+}
+
+.available-pagination .bullet-large {
+    width: 8px;
+    height: 8px;
+}
+
+.available-pagination .bullet-medium {
+    width: 6px;
+    height: 6px;
+}
+
+.available-pagination .bullet-small {
+    width: 4px;
+    height: 4px;
+}
+
+@media (min-width: 1440px) {
+    .available-pagination {
+        display: none;
+    }
+.available-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 32px;
+}
+.available-swiper .swiper-slide {
+width: 405px;
+    height: 702px;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-shadow: 0 20px 40px  rgba(225, 29, 72, 0.1);
+}
+.available-swiper .ss2 {
+box-shadow: 0 20px 40px  rgba(0, 229, 255, 0.1);
+}
+
+.available-swiper .ss3 {
+box-shadow: 0 20px 40px  rgba(191, 0, 255, 0.1);
+}
+
+}
