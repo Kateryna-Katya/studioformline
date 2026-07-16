@@ -507,3 +507,42 @@ padding-top: 16px;
 width: 800px;
     }
 }
+/* Contact */
+.contact-section{
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.contact-container{
+    padding-top: 204px;
+    padding-bottom: 204px;
+}
+.contact-container .title-container{
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.contact-container h3{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.contact-link{
+font-family: "Geist", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #10b981;
+    width: 258px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.contact-section{
+    background-image: url("/img/contact/desk.png");
+}
+.contact-container{
+    padding-top: 220px;
+    padding-bottom: 220px;
+}  
+}
